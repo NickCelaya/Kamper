@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* nav bar top of app css*/
+
+.navbar {
+    background-color: #273332;
+    height: 20vh;
+    width: 100vw;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    font-family: "Lobster", serif;
+    font-size: 100px;
+    letter-spacing: 5px;
+    margin-left: 5%;
+    color: #D3B299;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-right: 5%;
+    color: #54937A;
+}
+
+.camptext {
+    font-family: "Lobster", serif;
+    font-size: 20px;
+    letter-spacing: 6px;
+    margin-right: 60px;
+    color: #D3B299;
+}
+
+
+/*main body css*/
+
+.parent {
+    display: flex;
+    max-height: 80vh
+}
+
+.leftDiv {
+    background-image: url(img/forest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list {
+    height: inherit;
+    width: 40vw;
+    padding: 10px 19px;
+    background: rgba(0, 0, 0, .7);
+    z-index: 100;
+    border: solid 5px #D3B299;
+    border-radius: 11px;
+    color: white;
+    font-family: lobster;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.getweatherbutton {
+    font-family: lobster;
+    font-size: 20px;
+    background-color: #D3B299;
+    color: white;
+    border-radius: 27px;
+    border: 3px #D3B299 solid;
+    margin-bottom: 10px;
+    /*margin-right: 408px;*/
+    cursor: pointer;
+    padding: 5px;
+    transition: all .3s ease-in-out;
+}
+
+.clearweatherbutton {
+    font-family: lobster;
+    font-size: 20px;
+    background-color: #D3B299;
+    color: white;
+    border-radius: 27px;
+    border: 3px #D3B299 solid;
+    margin-bottom: 10px;
+    /*margin-right: 408px;*/
+    cursor: pointer;
+    padding: 5px;
+    transition: all .3s ease-in-out;
+}
+
+.buttondiv {
+    height: 66px;
+    width: 40vw;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.getweatherbutton:hover {
+    font-size: 30px;
+    background-color: #D3B299;
+}
+
+.clearweatherbutton:hover {
+    font-size: 30px;
+    background-color: #D3B299;
+}
+
+.rightDiv {
+    /* Will Contain Video*/
+    display: flex;
+    align-items: center;
+    background-color: black;
+    /*height: 100vh;*/
+    width: 50%;
+}
+
+.d {
+    background-color: green;
+}
+
+video {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
