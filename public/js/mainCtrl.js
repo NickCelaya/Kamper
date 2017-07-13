@@ -7,7 +7,7 @@ angular.module("knapsackApp").controller("mainCtrl", function($scope, mainServic
         console.log(response, "NICK controller");
         $scope.data = response;
         // let data = $scope.data
-        $scope.temp = (response.main.temp * (9/5) - 459.67).toFixed(1) + "℉";
+        // $scope.temp = (response.main.temp * (9/5) - 459.67).toFixed(1) + "℉";
       })
     }
 

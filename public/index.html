@@ -46,22 +46,28 @@
                 </div>
                 <div class="list">
 
-                    <ol>
-                        <li>Temperature &nbsp - &nbsp {{temp}}</li>
+                    <ol class="listMargin">
+                        <li>Location &nbsp - &nbsp {{data.name}}</li>
+                        <br>
+                        <li>Temperature &nbsp - &nbsp {{data.main.temp}} &nbsp <span>°F</span></li>
+                        <br>
+                        <li>Temperature High &nbsp - &nbsp {{data.main.temp_max}} &nbsp <span>°F</span></li>
+                        <br>
+                        <li>Temperature Low &nbsp - &nbsp {{data.main.temp_min}} &nbsp <span>°F</span></li></li>
                         <br>
                         <li>Visibility &nbsp - &nbsp {{data.weather[0].description}}</li>
                         <br>
-                        <li>Dew point &nbsp - &nbsp {{}}</li>
+                        <li>latitude &nbsp - &nbsp {{data.coord.lat}}</li>
                         <br>
-                        <li>Humidity &nbsp - &nbsp {{}}</li>
+                        <li>longitude &nbsp - &nbsp {{data.coord.lon}}</li>
                         <br>
-                        <li>Wind Speed &nbsp - &nbsp {{data.wind.speed}}</li>
+                        <li>Humidity &nbsp - &nbsp {{data.main.humidity}} &nbsp <span>%</span></li>
                         <br>
-                        <li>Pressure &nbsp - &nbsp {{}}</li>
+                        <li>Wind Speed &nbsp - &nbsp {{data.wind.speed}} &nbsp <span>mph</span></li>
                         <br>
-                        <li>Time &nbsp - &nbsp {{}}</li>
+                        <li>Wind Direction &nbsp - &nbsp {{data.wind.deg}} &nbsp <span>°Deg</span> </li>
                         <br>
-                        <li>Summary &nbsp - &nbsp {{}}</li>
+                        <li>Time &nbsp - &nbsp {{data.dt}}</li>
 
                 </div>
 
