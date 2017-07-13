@@ -14,7 +14,11 @@ app.use(express.static(__dirname + "./../public"));
 
 
 
+const mainCtrl = require("./apiController.js");
 
+//endpoint for appid
+
+app.get("/api/weather", mainCtrl.getWeather);
 
 
 
