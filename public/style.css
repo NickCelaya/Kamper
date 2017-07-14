@@ -50,7 +50,7 @@ body {
 
 .parent {
     display: flex;
-    max-height: 80vh
+    height: inherit;
 }
 
 .leftDiv {
@@ -58,6 +58,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: inherit;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -99,7 +100,8 @@ body {
   color: white;
   border-radius: 27px;
   border: 3px #D3B299 solid;
-  margin-bottom: 10px;
+  margin-bottom: 10%;
+  margin-top: 10%;
   /*margin-right: 408px;*/
   cursor: pointer;
   padding: 5px;
@@ -112,7 +114,7 @@ body {
   align-items: center;
   font-family: lobster;
   font-size: 20px;
-  height: 50px;
+  /*height: 50px;*/
   background-color: #D3B299;
   color: white;
   border-radius: 27px;
@@ -127,7 +129,8 @@ body {
 .buttondiv {
     height: 66px;
     width: 40vw;
-    margin-bottom: 10px;
+    margin-top: 11%;
+    margin-bottom: 11%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -135,7 +138,7 @@ body {
 
 .buttons:hover {
     height: 80px;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, .7);
 }
 
 
@@ -144,7 +147,7 @@ body {
     display: flex;
     align-items: center;
     background-color: black;
-    /*height: 100vh;*/
+    height: inherit;
     width: 50%;
 }
 
