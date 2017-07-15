@@ -21,7 +21,7 @@
 
 
         <div class="logo">
-            <i class="fa fa-tree fa-4x" aria-hidden="true"></i>
+            <i class=" fade-In fa fa-tree fa-4x" aria-hidden="true"></i>
             <p class="camptext">lets</p>
             <p class="camptext">Kamp</p>
         </div>
@@ -40,34 +40,34 @@
 
                 <div class="buttondiv">
 
-                    <div class="buttons" ng-click="getWeather()">Get Weather</div>
-                    <div class="buttons" ng-click="clearData()">Clear Weather</div>
+                    <div class=" fade-In buttons" ng-click="getWeather()">Get Weather</div>
+                    <div class=" fade-In buttons" ng-click="clearData()">Clear Weather</div>
 
                 </div>
                 <div class="list">
 
                     <ol class="listMargin">
-                        <li>Location &nbsp - &nbsp {{data.name}}</li>
+                        <li class="fade-In">Location &nbsp - &nbsp {{data.name}}</li>
                         <br>
-                        <li>Temperature &nbsp - &nbsp {{data.main.temp}} &nbsp <span>°F</span></li>
+                        <li class="fade-In">Temperature &nbsp - &nbsp {{data.main.temp}} &nbsp <span>°F</span></li>
                         <br>
-                        <li>Temperature High &nbsp - &nbsp {{data.main.temp_max}} &nbsp <span>°F</span></li>
+                        <li class="fade-In">Temperature High &nbsp - &nbsp {{data.main.temp_max}} &nbsp <span>°F</span></li>
                         <br>
-                        <li>Temperature Low &nbsp - &nbsp {{data.main.temp_min}} &nbsp <span>°F</span></li></li>
+                        <li class="fade-In">Temperature Low &nbsp - &nbsp {{data.main.temp_min}} &nbsp <span>°F</span></li></li>
                         <br>
-                        <li>Visibility &nbsp - &nbsp {{data.weather[0].description}}</li>
+                        <li class="fade-In">Visibility &nbsp - &nbsp {{data.weather[0].description}}</li>
                         <br>
-                        <li>latitude &nbsp - &nbsp {{data.coord.lat}}</li>
+                        <li class="fade-In">latitude &nbsp - &nbsp {{data.coord.lat}}</li>
                         <br>
-                        <li>longitude &nbsp - &nbsp {{data.coord.lon}}</li>
+                        <li class="fade-In">longitude &nbsp - &nbsp {{data.coord.lon}}</li>
                         <br>
-                        <li>Humidity &nbsp - &nbsp {{data.main.humidity}} &nbsp <span>%</span></li>
+                        <li class="fade-In">Humidity &nbsp - &nbsp {{data.main.humidity}} &nbsp <span>%</span></li>
                         <br>
-                        <li>Wind Speed &nbsp - &nbsp {{data.wind.speed}} &nbsp <span>mph</span></li>
+                        <li class="fade-In">Wind Speed &nbsp - &nbsp {{data.wind.speed}} &nbsp <span>mph</span></li>
                         <br>
-                        <li>Wind Direction &nbsp - &nbsp {{data.wind.deg}} &nbsp <span>°Deg</span> </li>
+                        <li class="fade-In">Wind Direction &nbsp - &nbsp {{data.wind.deg}} &nbsp <span>°Deg</span> </li>
                         <br>
-                        <li>Time &nbsp - &nbsp {{data.dt}}</li>
+                        <li class="fade-In">Time &nbsp - &nbsp {{data.dt}}</li>
 
                 </div>
 
